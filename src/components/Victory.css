@@ -1,0 +1,34 @@
+.victory-container {
+  background-image: url('/public/images/victory-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.victory-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  max-width: 500px;
+}
+
+.victory-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #6a0dad;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.victory-button:hover {
+  background-color: #8a2be2;
+}

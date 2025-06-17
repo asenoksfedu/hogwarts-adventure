@@ -1,0 +1,100 @@
+.room-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/* Индивидуальные стили фона */
+.potions {
+  background-image: url('/public/images/potions.jpg');
+}
+
+.owlery {
+  background-image: url('/public/images/owlery.jpg');
+}
+
+.dumbledore {
+  background-image: url('/public/images/dumbledore-office.jpg');
+}
+
+.lake {
+  background-image: url('/public/images/lake.jpg');
+}
+
+.quidditch {
+  background-image: url('/public/images/quidditch.jpg');
+}
+.room-bg.dungeon {
+  background-image: url('/public/images/dungeon.jpg');
+}
+
+.room-bg.forest {
+  background-image: url('/public/images/forest.jpg');
+}
+
+.room-bg.hall {
+  background-image: url('/public/images/great-hall.jpg');
+}
+
+.room-bg.tower {
+  background-image: url('/public/images/tower.jpg');
+}
+
+.room-bg.library {
+  background-image: url('/public/images/library.jpg');
+}
+
+.navigation-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.room-link {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.room-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.room-content {
+  color: #fff;
+  text-shadow: 1px 1px 4px #000; /* делает текст читаемым на светлом фоне */
+}
+
+.room-content a {
+  color: #ffc7a8; /*цвет для ссылок */
+  text-decoration: none;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.room-content a:hover {
+  text-decoration: underline;
+}
+.wand-fixed {
+  position: fixed;
+  bottom: 80px;   /* чуть выше низа */
+  left: 30px;     /* отступ слева */
+  width: 60px;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+}
+
+.wand-fixed:hover {
+  transform: scale(1.2);
+}

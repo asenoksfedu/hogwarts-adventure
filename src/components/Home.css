@@ -1,0 +1,53 @@
+.home-container {
+  height: 100vh;
+  background-image: url('/public/images/hogwarts-main.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  border-radius: 2rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-description {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-rules {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.home-rules ul {
+  padding-left: 1.5rem;
+}
+
+.start-button {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  background-color: #6b4f8a;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #563a73;
+}

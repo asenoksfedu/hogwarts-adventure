@@ -1,0 +1,96 @@
+.room {
+  text-align: center;
+  padding: 40px;
+  background-color: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #4b2e83;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #6b44aa;
+}
+.room {
+  padding: 30px;
+  color: white;
+  min-height: 100vh;
+}
+
+.room h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.room p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 💡 Уникальные стили для каждой комнаты */
+
+.forest {
+  background: url('/public/images/forest.jpg') no-repeat center center/cover;
+}
+
+.library {
+  background: url('/public/images/library.jpg') no-repeat center center/cover;
+}
+
+.dungeon {
+  background: #0c0c0c;
+  background-image: url('/public/images/dungeon.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.tower {
+  background: url('/public/images/tower.jpg') no-repeat center center/cover;
+}
+
+.potions {
+  background: url('/public/images/potions.jpg') no-repeat center center/cover;
+}
+
+.owlery {
+  background: #333 url('/public/images/owlery.jpg') center/cover no-repeat;
+}
+
+.dumbledore-office {
+  background: url('/public/images/office.jpg') no-repeat center center/cover;
+}
+
+.lake {
+  background: url('/public/images/lake.jpg') no-repeat center center/cover;
+}
+
+.quidditch {
+  background: url('/public/images/quidditch.jpg') no-repeat center center/cover;
+}
+
+.great-hall {
+  background: url('/public/images/hall.jpg') no-repeat center center/cover;
+}
